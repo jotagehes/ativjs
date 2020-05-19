@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade JavaScript</title>
+    <title>Lâmpada - Atividade JavaScript</title>
+    <script src="cod.js"></script>
+    <link rel="stylesheet"
+        href="C:\Users\joaog\OneDrive\Área de Trabalho\devweb\exeboots\bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <style>
+        .tam {
+            height: 200px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <main class="container-fluid">
+        <article>
+            <div class="row">
+                <section class="col-sm-12 tam">
+                    <h1 style="text-align: center;">Lâmpada</h1>
+                </section>
+            </div>
+            <div class="row">
+                <section class="col-sm-4">
+                    
+                </section>
+                <section class="col-sm-4">
+                    <img id="imlamp" onmouseover="ligarLamp()" onmouseout="apagarLamp()"
+                        src="https://i.stack.imgur.com/b983w.jpg" alt="Imagem de Lâmpada ligada">
+                </section>
+                <section class="col-sm-4">
+                    
+                </section>
+            </div>
+
+            <div class="row">
+                <section class="col-sm-4">
+                    
+                </section>
+                <section class="col-sm-4">
+                    <button id="meuclick" onclick="deligarTudo()" class="btn btn-light">Destivar Energia</button>
+                </section>
+                <section class="col-sm-4">
+                   
+                </section>
+            </div>
+        </article>
+    </main>
+
 </body>
+
 </html>
